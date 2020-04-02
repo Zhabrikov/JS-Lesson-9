@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="container1" id="container1">
+            <h1>Курсы валют в Минске на сегодня</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Банк</th>
+                        <th>USD</th>
+                        <th>EUR</th>
+                        <th>RUB</th>                        
+                        <th>UAH</th>
+                        <th>PLN</th>                        
+                    </tr>
+                    
+                </thead>
+                <tbody id="bodyTable">
+
+                </tbody>
+            </table>
+        </section>
+            
+        <section class="container2">
+            <h2>Конвертер валюты</h2>
+            <form>
+                    
+                    <select id="one">
+                        <option>BYN</option>
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option>RUB</option>
+                    </select>
+                    <input type="text" id="oneInput" placeholder="0.0000">
+                
+                    <select id="one" disabled>
+                        <option>BYN</option>                        
+                    </select>
+                    <input type="text" id="twoInput" placeholder="0.0000" readonly>
+                                  
+            </form>
+        </section>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

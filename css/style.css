@@ -1,0 +1,49 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 45px;
+}
+tr:nth-child(2n+1){
+    background-color: rgb(57, 214, 199);
+}
+th{
+    background-color:white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+td{
+    text-align: center;
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container2 form{
+    display: grid;
+    grid-template-columns: 60px 300px;
+    grid-gap: 10px;
+}
+
+input, select{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    outline: none;
+}
